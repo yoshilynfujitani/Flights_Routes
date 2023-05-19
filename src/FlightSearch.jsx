@@ -105,8 +105,8 @@
                           <h1>Sort By</h1>
                           <select id="to" name="to" value={sortOption} onChange={handleSortChange} className='border border-b px-2 py-1 rounded-md'>
                             <option value="">None</option>
-                            <option value="Price">Price</option>
-                             <option value="Time">Time</option>
+                            <option value="Price">Price </option>
+                             <option value="Time">Time ()</option>
                           </select>
                         </div>
 

@@ -42,7 +42,7 @@ export const flightsData = [
         id: 6,
         start: 'Manila (MNL)',
         destination: "Kuala Lumpur (KUL)",
-        price: 3809,
+        price: 13809,
         time: 245,
         connect:  {
           id: 7,
@@ -57,7 +57,7 @@ export const flightsData = [
         id: 9,
         start:'Manila (MNL)',
         destination: "Singapore(SG)",
-        price: 3809,
+        price: 9809,
         time: 245,
         connect:  {
           id: 10,
@@ -114,7 +114,7 @@ export const flightsData = [
         start:'Manila (MNL)',
         destination: "Osaka (ONA)",
         price: 10809,
-        time: 445,
+        time: 345,
         connect:  {
           id: 15,
           start: 'Manila(MNL) to Osaka (ONA)',
@@ -155,6 +155,97 @@ export const flightsData = [
           destination: 'Beijing (CHN)',
           price: 18284,
           time: 690
+          
+        } 
+      },
+      {
+        id: 36,
+        start:'Manila (MNL)',
+        connect:  {
+          id: 37,
+          start: 'Manila(MNL) to Taipei (TAI)',
+          destination: 'Seoul (ICN)',
+          price: 18284,
+          time: 290
+          
+        } 
+      },
+      {
+        id: 38,
+        start:'Manila (MNL)',
+        connect:  {
+          id: 39,
+          start: 'Manila(MNL) to Taipei(TPE)',
+          destination: 'Singapore(SG)',
+          price: 8284,
+          time: 290
+          
+        } 
+      },
+      {
+        id: 38,
+        start:'Manila (MNL)',
+        connect:  {
+          id: 39,
+          start: 'Manila(MNL) to Clark(CLR) ',
+          destination: 'Taipei (TPE)',
+          price: 8284,
+          time: 130
+          
+        } 
+      },
+      {
+        id: 40,
+        start: 'Manila (MNL)',
+        destination: "Taipei (TPE)",
+        price: 10436,
+        time: 150
+      },
+      {
+        id: 41,
+        start:'Manila (MNL)',
+        connect:  {
+          id: 42,
+          start: 'Manila(MNL) to Brunei (BRN) ',
+          destination: 'Kuala Lumpur (KUL)',
+          price: 10984,
+          time: 330
+          
+        } 
+      },
+      {
+        id: 42,
+        start:'Manila (MNL)',
+        connect:  {
+          id: 43,
+          start: 'Manila(MNL) to Tokyo(NRT) ',
+          destination: 'Osaka (ONA)',
+          price: 9984,
+          time: 370
+          
+        } 
+      },
+      {
+        id: 44,
+        start:'Manila (MNL)',
+        connect:  {
+          id: 45,
+          start: 'Manila(MNL) to Kuala Lumpur (KUL) ',
+          destination: 'Brunei (BRN)',
+          price: 8984,
+          time: 470
+          
+        } 
+      },
+      {
+        id: 44,
+        start:'Manila (MNL)',
+        connect:  {
+          id: 45,
+          start: 'Manila(MNL) to Clark (CLR) ',
+          destination: 'Tokyo (NRT)',
+          price: 12984,
+          time: 370
           
         } 
       },
